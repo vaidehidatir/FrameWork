@@ -48,7 +48,7 @@ public class RunManager {
 					Object obj = cls.newInstance();
 					Method m = cls.getDeclaredMethod(strMethodName);
 					m.invoke(obj);
-					System.out.println("a");
+					
 				}
 				
 				
